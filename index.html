@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swatz Boutique</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full bg-gradient-to-br from-pink-400 to-yellow-400 flex items-center justify-center text-white font-bold">
+          SW
+        </div>
+        <div>
+          <h1 class="text-xl font-extrabold">Swatz Boutique</h1>
+          <p class="text-xs text-gray-500">Handpicked ethnic & fusion wear</p>
+        </div>
+      </div>
+
+      <nav class="hidden md:flex gap-6 items-center text-sm">
+        <a href="#shop" class="hover:text-pink-600">Shop</a>
+        <a href="#about" class="hover:text-pink-600">About</a>
+        <a href="#custom" class="hover:text-pink-600">Custom Orders</a>
+        <a href="#contact" class="px-4 py-2 bg-pink-600 text-white rounded-md shadow-sm hover:bg-pink-700">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-extrabold">Timeless style, lovingly crafted</h2>
+        <p class="mt-4 text-gray-600">Swatz Boutique offers curated ethnic and fusion wear — from everyday cotton kurtas to festive lehengas, each piece is chosen for comfort, colour and craftsmanship.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#shop" class="px-5 py-3 bg-pink-600 text-white rounded-lg shadow hover:bg-pink-700">Shop Now</a>
+          <a href="#custom" class="px-5 py-3 border border-gray-200 rounded-lg">Custom Orders</a>
+        </div>
+      </div>
+
+      <div class="hidden md:block">
+        <img src="https://via.placeholder.com/900x650?text=Swatz+Boutique+Showcase" alt="Swatz Showcase" class="rounded-xl shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Section -->
+  <section id="shop" class="max-w-6xl mx-auto px-6 py-12">
+    <h3 class="text-2xl font-bold">Featured Products</h3>
+    <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="bg-white rounded-xl p-4 shadow-sm">
+        <img src="https://via.placeholder.com/420x420?text=Floral+Kurta" class="rounded-md" alt="Floral Kurta">
+        <h4 class="mt-3 font-semibold">Floral Summer Kurta</h4>
+        <p class="text-sm text-gray-500">Light cotton kurta with floral motifs.</p>
+        <div class="mt-2 flex justify-between items-center">
+          <span class="font-bold">₹1,299</span>
+          <button class="px-3 py-1 border rounded-md text-sm">Add</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-sm">
+        <img src="https://via.placeholder.com/420x420?text=Embroidered+Lehenga" class="rounded-md" alt="Lehenga">
+        <h4 class="mt-3 font-semibold">Embroidered Lehenga</h4>
+        <p class="text-sm text-gray-500">Elegant lehenga for festive occasions.</p>
+        <div class="mt-2 flex justify-between items-center">
+          <span class="font-bold">₹4,999</span>
+          <button class="px-3 py-1 border rounded-md text-sm">Add</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-sm">
+        <img src="https://via.placeholder.com/420x420?text=Silk+Dupatta" class="rounded-md" alt="Dupatta">
+        <h4 class="mt-3 font-semibold">Silk Dupatta</h4>
+        <p class="text-sm text-gray-500">Soft silk dupatta with zari border.</p>
+        <div class="mt-2 flex justify-between items-center">
+          <span class="font-bold">₹799</span>
+          <button class="px-3 py-1 border rounded-md text-sm">Add</button>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-4 shadow-sm">
+        <img src="https://via.placeholder.com/420x420?text=Kids+Set" class="rounded-md" alt="Kids Cotton Set">
+        <h4 class="mt-3 font-semibold">Kids Cotton Set</h4>
+        <p class="text-sm text-gray-500">Comfort-first cotton set for kids.</p>
+        <div class="mt-2 flex justify-between items-center">
+          <span class="font-bold">₹699</span>
+          <button class="px-3 py-1 border rounded-md text-sm">Add</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-white border-t">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h3 class="text-2xl font-bold">About Swatz Boutique</h3>
+        <p class="mt-4 text-gray-600">Started with a love for handcrafted textiles, Swatz Boutique blends traditional techniques with modern silhouettes. We believe clothing should be joyful, comfortable, and made to last.</p>
+        <ul class="mt-6 space-y-2 text-gray-600 list-disc list-inside">
+          <li>Locally sourced fabrics</li>
+          <li>Small-batch production</li>
+          <li>Custom tailoring</li>
+        </ul>
+      </div>
+      <div id="custom">
+        <h4 class="text-lg font-semibold">Custom Orders & Tailoring</h4>
+        <p class="mt-2 text-gray-600">Want a custom colour, measurement or embroidery? Tell us your idea and we'll make it happen.</p>
+        <a href="#contact" class="inline-block mt-4 px-4 py-2 bg-pink-600 text-white rounded-md">Request a Custom Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="bg-gray-900 text-white">
+    <div class="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h4 class="text-xl font-bold">Get in touch</h4>
+        <p class="mt-2 text-gray-300">Email us at <a href="mailto:hello@swatzboutique.com" class="underline">hello@swatzboutique.com</a><br> Call <a href="tel:+911234567890" class="underline">+91 12345 67890</a></p>
+        <p class="mt-4 text-gray-400 text-sm">Open: Mon–Sat, 10:00–18:00</p>
+      </div>
+      <div>
+        <h4 class="text-xl font-bold">Send a message</h4>
+        <form action="https://formspree.io/f/mzzpqrxy" method="POST" class="mt-4 space-y-4">
+          <input type="text" name="name" placeholder="Your name" required class="w-full p-3 rounded-md text-gray-900">
+          <input type="email" name="email" placeholder="Your email" required class="w-full p-3 rounded-md text-gray-900">
+          <textarea name="message" rows="4" placeholder="Your message" required class="w-full p-3 rounded-md text-gray-900"></textarea>
+          <button type="submit" class="px-4 py-3 bg-pink-600 rounded-md w-full">Send message</button>
+        </form>
+      </div>
+    </div>
+    <div class="border-t border-gray-800">
+      <div class="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
+        <span>©️ 2025 Swatz Boutique. All rights reserved.</span>
+        <span class="mt-3 md:mt-0">Follow us on <a href="#" class="underline">Instagram</a> • <a href="#" class="underline">Facebook</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
